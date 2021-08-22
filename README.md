@@ -1,11 +1,10 @@
-
 # What is this repository
 Create a pandas dataframe from the tensorboard log!
 None: I only checked tensorbaord logs from pytorch.
 
 
 
-# install 
+# Install 
 
 ```
 pip install git+https://github.com/MasanoriYamada/tensorboardpy
@@ -13,10 +12,15 @@ pip install git+https://github.com/MasanoriYamada/tensorboardpy
 
 # How to use
 
+```python
+from tensorboardpy import logdir
+df = logdir('path/tensorboard_logdir')
 ```
-poetry run jupyter notebook
+# Tutorial
+
 ```
-# Using image
+poetry run jupyter notebook example.ipynb
+```
 
 directory structure
 ```
@@ -39,7 +43,7 @@ runs
 tensorboardpy recursively searches the event file and creates a data frame using the information from hparams and scalaras tags.
 <img src="./contents/usage.png" alt="image" style="zoom:50%;" />
 
-## note
+## Note
 My gen_log.py is using a modified torch.utils.tensorabord.
 
 I think add_hparams is mostly used together with add_scalar in deep learning. However, It can't embed the graph of add_scalar in hparams.
