@@ -1,5 +1,5 @@
 
-# What is thie repository
+# What is this repository
 Create a pandas dataframe from the tensorboard log!
 None: I only checked tensorbaord logs from pytorch.
 
@@ -8,7 +8,7 @@ None: I only checked tensorbaord logs from pytorch.
 # install 
 
 ```
-pip install tensorboardpy
+pip install git+https://github.com/MasanoriYamada/tensorboardpy
 ```
 
 # How to use

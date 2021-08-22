@@ -3,6 +3,10 @@ name = "tensorboardpy"
 version = "0.1.0"
 description = "Create a pandas dataframe from the tensorboard log!"
 authors = ["MasanoriYamada <yamada0224@gmail.com>"]
+readme = "README.md"
+repository = "https://github.com/MasanoriYamada/tensorboardpy"
+homepage = "https://github.com/MasanoriYamada/tensorboardpy"
+license = "MIT"
 
 [tool.poetry.dependencies]
 python = "^3.9"
